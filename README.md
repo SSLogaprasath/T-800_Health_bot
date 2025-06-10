@@ -39,10 +39,11 @@ This project integrates the **Mistral-7B Instruct v0.2** model—an open-weight,
 ## 📁 Project Structure
 
 t800-fitness-coach/
-├── app.py # Flask backend with /chat API
-├── index.html # Frontend UI
-├── static/
-│ └── t-800.jpg # Avatar used in chat interface
+├── app.py              # Flask backend with API routing
+├── index.html          # Main frontend HTML with embedded JavaScript and styles
+├── static/             # Static assets (images, CSS, etc.)
+│   └── t-800.jpg       # Avatar image for the chat UI
+
 
 
 ---
