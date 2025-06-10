@@ -47,7 +47,7 @@ This project integrates the **Mistral-7B Instruct v0.2** model—an open-weight,
 
 ---
 ## 📸 Preview
-<img src="static/t-800.jpg" width="120" alt="T-800" />
+<img src="Screenshot 2025-06-02 153615.png" width="120" alt="T-800" />
 
 ## ⚙️ Getting Started
 
