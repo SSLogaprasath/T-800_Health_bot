@@ -36,17 +36,18 @@ This project integrates the **Mistral-7B Instruct v0.2** model—an open-weight,
 
 ---
 
-## 📁 Project Structure
-
-t800-fitness-coach/
-├── app.py              # Flask backend with API routing\n
-├── index.html          # Main frontend HTML with embedded JavaScript and styles\n
-├── static/             # Static assets (images, CSS, etc.)\n
-│   └── t-800.jpg       # Avatar image for the chat UI\n
+<pre><code>📁 Project Structure 
+  t800-fitness-coach/ 
+  ├── app.py # Flask backend with chat API logic
+  ├── index.html # Main frontend interface with embedded CSS & JS
+  ├── static/ # Static assets directory
+  │ └── t-800.jpg # Avatar image for the chat UI </code></pre>
 
 
 
 ---
+## 📸 Preview
+<img src="static/t-800.jpg" width="120" alt="T-800" />
 
 ## ⚙️ Getting Started
 
@@ -63,3 +64,16 @@ pip install flask requests
 ```bash
 python app.py
 ```
+## 🧪 Example Prompts
+  1. Create a muscle gain workout for a beginner.
+  
+  2. Suggest a high-protein vegetarian diet for South India.
+  
+  3. What are some tips for improving endurance?
+##  Notes
+The user experience starts with a short form collecting age, weight, goals, region, etc.
+
+Messages are sent to the backend which routes them to the Mistral model for response.
+
+AI replies are auto-formatted with headings, lists, and emphasis for clarity.
+
